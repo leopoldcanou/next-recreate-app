@@ -1,8 +1,8 @@
-import Team from "../ui/Team";
-import TeamSkeleton from "../ui/Team/TeamSkeleton.jsx";
-import Testimonial from "../ui/Testimonial";
+// import Team from "../ui/Team";
+// import TeamSkeleton from "../ui/Team/TeamSkeleton.jsx";
+// import Testimonial from "../ui/Testimonial";
 
-import { fetchOurTeams, fetchTestimonialData } from "../lib/loaders.js";
+// import { fetchOurTeams, fetchTestimonialData } from "../lib/loaders.js";
 // import { Suspense } from "react";
 
 // Version de base, monocomposant et sans gestion defer/Await
