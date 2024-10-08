@@ -3,21 +3,22 @@ import TeamSkeleton from "../ui/Team/TeamSkeleton.jsx";
 import Testimonial from "../ui/Testimonial";
 
 import { fetchOurTeams, fetchTestimonialData } from "../lib/loaders.js";
-import { Suspense } from "react";
+// import { Suspense } from "react";
 
 // Version de base, monocomposant et sans gestion defer/Await
 
-export async function loader({ params }) {
-  const ourteams = await fetchOurTeams(params.teamName);
-  return ourteams;
-}
+// export async function loader({ params }) {
+//   const ourteams = await fetchOurTeams(params.teamName);
+//   return ourteams;
+// }
 
 export default function OurTeams() {
-  const data = useLoaderData();
+  //   const data = useLoaderData();
 
   return (
     <section>
-      <Team {...data} />
+      <p>TEAM</p>
+      {/* <Team {...data} /> */}
     </section>
   );
 }
